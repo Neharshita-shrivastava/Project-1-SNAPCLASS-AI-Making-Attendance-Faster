@@ -1,0 +1,12 @@
+.env
+.vscode
+
+*.pyc
+venv/
+
+.D5_Store
+__pycache__/
+
+.streamlit/
+
+dist/
