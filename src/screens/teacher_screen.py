@@ -278,8 +278,8 @@ def teacher_tab_attendance_records():
     )
 
     display_df = ( summary.sort_values(by='ts_group' ,ascending=False)
-                  [['Time', 'Subject', 'Subject Code', 'Attendance Stats']]
-                  )
+                [['Time', 'Subject', 'Subject Code', 'Attendance Stats']]
+                )
     
     st.dataframe(display_df, width='stretch', hide_index=True)
 
@@ -312,7 +312,7 @@ def teacher_screen_login():
     st.space()
 
 
-    teacher_username = st.text_input("Enter username", placeholder='ananyaroy')
+    teacher_username = st.text_input("Enter username", placeholder='Neharshita Shrivastava')
 
     teacher_pass = st.text_input("Enter password", type='password', placeholder="Enter password")
 
