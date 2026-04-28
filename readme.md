@@ -1,4 +1,4 @@
-# 📸 SnapClass – Smart Attendance System
+# 📸 SnappyClass – Smart Attendance System
 An AI-powered attendance system that uses image capture and voice recognition to mark student attendance automatically.
 ## Problem Statement
 Traditional attendance systems are time-consuming, prone to proxy attendance, and inefficient in large classrooms. SnapClass solves this by automating attendance using AI-based image and voice recognition.
